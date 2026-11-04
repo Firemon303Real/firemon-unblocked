@@ -1,0 +1,21 @@
+{
+  "name": "firemon-unblocked",
+  "version": "1.0.0",
+  "private": true,
+  "type": "module",
+  "description": "Firemon Unblocked web proxy powered by Scramjet",
+  "scripts": {
+    "start": "node server.mjs"
+  },
+  "engines": {
+    "node": ">=20"
+  },
+  "dependencies": {
+    "@mercuryworkshop/scramjet": "2.0.67-alpha.2",
+    "@mercuryworkshop/scramjet-controller": "0.0.14",
+    "@mercuryworkshop/scramjet-utils": "0.0.3",
+    "@mercuryworkshop/libcurl-transport": "^2.0.5",
+    "@mercuryworkshop/wisp-js": "^0.4.1",
+    "express": "^5.1.0"
+  }
+}
